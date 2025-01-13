@@ -98,7 +98,6 @@ if ask_user "Install modules?"; then
     }
 
     install_mod "mod-aoe-loot" "https://github.com/azerothcore/mod-aoe-loot.git"
-    install_mod "mod-learn-spells" "https://github.com/noisiver/mod-learnspells.git"
     install_mod "mod-fireworks-on-level" "https://github.com/azerothcore/mod-fireworks-on-level.git"
     install_mod "mod-individual-progression" "https://github.com/ZhengPeiRu21/mod-individual-progression.git"
 
