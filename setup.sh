@@ -111,7 +111,13 @@ docker compose up -d --build
 
 cd ..
 
- chown -R 1000:1000 wotlk
+ if [ -d "wotlk" ]; then
+    chown -R 1000:1000 wotlk
+else
+    echo "Error: Directory 'wotlk' does not exist. Creating it now..."
+    mkdir wotlk
+    chown -R 1000:1000 wotlk
+fi
 
 # Directory for custom SQL files
 custom_sql_dir="src/sql"
