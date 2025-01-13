@@ -107,7 +107,7 @@ if ask_user "Install modules?"; then
 fi
 
 
-docker compose up -d --build
+docker compose up --build
 
 cd ..
 
