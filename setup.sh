@@ -100,6 +100,18 @@ if ask_user "Install modules?"; then
     install_mod "mod-aoe-loot" "https://github.com/azerothcore/mod-aoe-loot.git"
     install_mod "mod-fireworks-on-level" "https://github.com/azerothcore/mod-fireworks-on-level.git"
     install_mod "mod-individual-progression" "https://github.com/ZhengPeiRu21/mod-individual-progression.git"
+    install_mod "mod-autobalance" "https://github.com/azerothcore/mod-autobalance.git"
+    install_mod "mod-ah-bot" "https://github.com/azerothcore/mod-ah-bot.git"
+    install_mod "mod-transmog" "https://github.com/azerothcore/mod-transmog.git"
+    install_mod "mod-challenge-modes" "https://github.com/ZhengPeiRu21/mod-challenge-modes.git"
+    install_mod "mod-solo-lfg" "https://github.com/azerothcore/mod-solo-lfg.git"
+    install_mod "mod-dungeon-respawn" "https://github.com/AnchyDev/DungeonRespawn.git"
+    install_mod "mod-random-enchants" "https://github.com/azerothcore/mod-random-enchants.git"
+    install_mod "mod-1v1-arena" "https://github.com/azerothcore/mod-1v1-arena.git"
+    install_mod "mod-auctionator" "https://github.com/araxiaonline/mod-auctionator.git"
+    install_mod "mod-weekend-xp" "https://github.com/azerothcore/mod-weekend-xp.git"
+    install_mod "mod-npc-services" "https://github.com/azerothcore/mod-npc-services.git"
+    install_mod "mod-npc-spectator" "https://github.com/Gozzim/mod-npc-spectator.git"
 
     cd ..
 
